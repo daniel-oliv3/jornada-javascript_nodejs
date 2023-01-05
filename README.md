@@ -2,7 +2,7 @@
 ### Jornada JavaScript NodeJS
 ##
 
-### 01 - INTRODUÇÃO AO NODEJS
+### 1 - INTRODUÇÃO AO NODEJS
 
 **O que é o NodeJS?**
 - É um ambiente de execução de JavaScript, de código aberto multiplataforma, que permite aos programadores executar código de JavaScript fora do tradicional ambiente de um broser
@@ -38,21 +38,52 @@
     - Acesso a base de dados MongoDB
 
 
+### 2 - INSTALAÇÃO E PRIMEIROS TESTES COM NODEJS
 
+- Ex: node-02
 
+**NodeJS**
+- Downloads (LTS) Version
+- Long Time Suport
+- Site: https://nodejs.org/en/
 
+**Terminal, (Prompt de Comando, Git Bash, PowerShell)**
+- Verificar a versão do node instalado
 
+```
+node -v
+```
 
+**Packages**
+- Verificar a versão do NPM instalado
+```
+npm -v
+```
 
+- Comando para o node interpretar codigo javascript no console
+```
+node app.js
+```
 
+- Arquivo `app.js`
+```js
+//app.js
+console.log("Olá Mundo do NodeJS.");
+```
 
+**Modo interativo (NodeJS)**
 
+```
+node
+```
 
-
-
-
-
-
-
+- Comando `.help`
+- `.break` - Sometimes you get stuck, this gets you out
+- `.clear` - Alias for .break
+- `.editor` - Enter editor mode
+- `.exit` - Exit the REPL
+- `.help` - Print this help message
+- `.load` - Load JS from a file into the REPL session
+- `.save` - Save all evaluated commands in this REPL session to a file
 
 
