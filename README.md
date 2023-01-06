@@ -87,3 +87,21 @@ node
 - `.save` - Save all evaluated commands in this REPL session to a file
 
 
+### 3 - VAMOS CRIAR UM SERVIDOR COM NODEJS
+
+- Ex: node-03
+
+- Exemplo 1
+```
+node teste-server.js
+```
+
+- Exemplo 2
+```
+node server.js
+```
+
+- Exemplo 3
+```
+node server-three.js
+```
