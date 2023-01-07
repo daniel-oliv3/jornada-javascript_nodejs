@@ -105,3 +105,7 @@ node server.js
 ```
 node server-three.js
 ```
+
+### 4 - SERVIDOR COM DIFERENTES RESPOSTAS
+
+- Ex: node-04
