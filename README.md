@@ -106,6 +106,10 @@ node server.js
 node server-three.js
 ```
 
+- Localhost: http://localhost:3000/
+
+
 ### 4 - SERVIDOR COM DIFERENTES RESPOSTAS
 
 - Ex: node-04
+
