@@ -113,3 +113,20 @@ node server-three.js
 
 - Ex: node-04
 
+
+### 5 - ALGUNS CONCEITOS DE NODEJS PARA PROGRAMADORES PHP
+
+- Ex: node-05
+
+<p align="center">
+  <img alt="...." src="assets/node-squema.jpg" width="100%">
+</p>
+
+
+
+
+
+
+
+
+
