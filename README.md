@@ -119,7 +119,7 @@ node server-three.js
 - Ex: node-05
 
 <p align="center">
-  <img alt="...." src="assets/node-squema.jpg" width="100%">
+  <img alt="...." src="assets/node-squema.jpg" width="80%">
 </p>
 
 
