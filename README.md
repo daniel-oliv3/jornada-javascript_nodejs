@@ -123,6 +123,12 @@ node server-three.js
 </p>
 
 
+### 6 - GLOBAL OBJECT
+
+- Ex: node-06
+
+
+
 
 
 
