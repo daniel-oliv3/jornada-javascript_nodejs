@@ -128,8 +128,9 @@ node server-three.js
 - Ex: node-06
 
 
+### 7 - INTRODUÇÃO A MÓDULOS E REQUIRE
 
-
+- Ex: node-07
 
 
 
