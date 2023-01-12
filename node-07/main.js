@@ -1,5 +1,6 @@
 /* módulos e require */
-console.log('Inicio');
+/* ======= Exemplo 2 ======= */
+//console.log('Inicio');
 
 //incluindo o modulo
 //let pessoas = require('./modulo');
@@ -8,14 +9,18 @@ console.log('Inicio');
 //const texto = require("./modulo");
 //console.log(texto);
 
-const pessoas = require('./modulo');
-console.log(pessoas);
+//const pessoas = require('./modulo');
+//console.log(pessoas);
 
+/* ======= Exemplo 2 ======= */
+console.log('Inicio');
 
+const dados = require('./modulo');
+console.log(dados);
+//console.log(dados.nomes);
+//console.log(dados.cidades);
 
-
-
-
+console.log(dados.nomes[2]);
 
 
 
