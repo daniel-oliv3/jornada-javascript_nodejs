@@ -132,8 +132,17 @@ node server-three.js
 
 - Ex: node-07
 
+- ...
+```
+node main.js
+```
 
 
+### 8 - REQUIRE E DESESTRUTURAÇÃO
 
+- Ex: node-08
 
-
+- ...
+```
+node main.js
+```
