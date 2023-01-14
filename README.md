@@ -146,3 +146,14 @@ node main.js
 ```
 node main.js
 ```
+
+### 9 - INTRODUÇÃO AOS MÓDULOS BUILTIN DO NODE
+
+- Ex: node-09
+
+**Node.js Built-in Modules**
+Site: https://www.w3schools.com/nodejs/ref_modules.asp
+
+
+
+
