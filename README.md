@@ -155,4 +155,14 @@ node main.js
 - Site: https://www.w3schools.com/nodejs/ref_modules.asp
 
 
+### 10 - LER FICHEIROS COM O MÓDULO FILE SYSTEM
+
+- Ex: node-10
+
+- ...
+```
+node app.js
+```
+
+
 
