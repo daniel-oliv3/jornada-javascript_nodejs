@@ -164,5 +164,13 @@ node main.js
 node app.js
 ```
 
+### 11 - LER FICHEIROS DE FORMA SINCRONA E ESCRITA DE FICHEIROS
+
+- Ex: node-11
+
+- ...
+```
+node app.js
+```
 
 
