@@ -15,8 +15,8 @@ if(fs.existsSync('./dados.csv')){
     console.log('Ficheiro não encontrado!');
 }
 
-
-
+//aparece primeiro (readfile)
+console.log('Ultima operação');
 
 
 
