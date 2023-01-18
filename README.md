@@ -174,3 +174,11 @@ node app.js
 ```
 
 
+### 12 - CRIAR E REMOVER PASTAS
+
+- Ex: node-12
+
+- Roda o projeto (terminal)
+```
+node app.js
+```
