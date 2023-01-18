@@ -2,16 +2,15 @@
 
 const fs = require('fs');
 
-//reading files
-if(fs.existsSync('./dados.csv')){
-    let dados = fs.readFileSync('./dados.csv', );
-    //console.log(dados);
-    console.log(dados.toString());
-}else {
-    console.log('Ficheiro não encontrado!');
-}
+//write file, 3*(ordem de visualização)
+fs.writeFile('./dados1.txt', 'Daniel Oliveira', () => {
+    console.log('Ficheiro escrito!');
+});
 
-//aparece primeiro (readfile)
+//write file Sync, 1*(ordem de visualização)
+fs.writeFileSync('./dados2.txt', 'Priscila Andrade');
+
+//aparece primeiro, 2*(ordem de visualização) 
 console.log('Ultima operação');
 
 

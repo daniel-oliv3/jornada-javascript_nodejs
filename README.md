@@ -132,7 +132,7 @@ node server-three.js
 
 - Ex: node-07
 
-- ...
+- Roda o projeto (terminal)
 ```
 node main.js
 ```
@@ -142,7 +142,7 @@ node main.js
 
 - Ex: node-08
 
-- ...
+- Roda o projeto (terminal)
 ```
 node main.js
 ```
@@ -159,7 +159,7 @@ node main.js
 
 - Ex: node-10
 
-- ...
+- Roda o projeto (terminal)
 ```
 node app.js
 ```
@@ -168,7 +168,7 @@ node app.js
 
 - Ex: node-11
 
-- ...
+- Roda o projeto (terminal)
 ```
 node app.js
 ```
