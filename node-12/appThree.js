@@ -1,11 +1,11 @@
-/* Exemplo 2 - REMOVE FOLDER */
+/* Exemplo 3 - REMOVE FOLDER and Conteudo*/
 
 const fs = require('fs');
 
 
 //remove folder
 if(fs.existsSync('./pasta1')){
-    fs.rmdir('./pasta1', (err) => {
+    fs.rm('./pasta1', { recursive: true}, (err) => {
         if(err){
             console.log(err);
         }
