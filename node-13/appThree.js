@@ -1,9 +1,9 @@
-//NodeJS módulo File System (Exemplo 2)
+//NodeJS módulo File System (Exemplo 3)
 const fs = require('fs');
 
 //delete file
-if(fs.existsSync('./dados2.txt')){
-    fs.rm('./dados2.txt', (err) => {
+if(fs.existsSync('./dados3.txt')){
+    fs.rm('./dados3.txt', (err) => {
         if(err){
             console.log(err);
         }else {
