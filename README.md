@@ -205,9 +205,14 @@ node app.js
   <img alt="...." src="assets/stream.jpg" width="80%">
 </p>
 
+### 15 - STREAM WRITE
 
+- Ex: node-15
 
-
+- Roda o projeto (terminal)
+```
+node app.js
+```
 
 
 
