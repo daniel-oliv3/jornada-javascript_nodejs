@@ -240,9 +240,14 @@ ping google.com
   - 3389 = RDP
   - 3306 = Comunicação com servidores MySQL
 
+### 17 - RELEMBRANDO AS RESPOSTAS
 
+- Ex: node-17
 
-
+- Roda o projeto (terminal)
+```
+node server.js
+```
 
 
 
