@@ -199,6 +199,7 @@ node app.js
 - Roda o projeto (terminal)
 ```
 node app.js
+```
 
 <p align="center">
   <img alt="...." src="assets/stream.jpg" width="70%">
