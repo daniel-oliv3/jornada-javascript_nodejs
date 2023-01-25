@@ -183,9 +183,14 @@ node app.js
 node app.js
 ```
 
+### 13 - ELIMINAR FICHEIROS
 
+- Ex: node-13
 
-
+- Roda o projeto (terminal)
+```
+node app.js
+```
 
 
 
