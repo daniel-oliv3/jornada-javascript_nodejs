@@ -202,7 +202,7 @@ node app.js
 ```
 
 <p align="center">
-  <img alt="...." src="assets/stream.jpg" width="70%">
+  <img alt="...." src="assets/stream.jpg" width="80%">
 </p>
 
 
