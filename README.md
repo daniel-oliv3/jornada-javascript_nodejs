@@ -192,8 +192,17 @@ node app.js
 node app.js
 ```
 
+### 14 - STREAMS
 
+- Ex: node-14
 
+- Roda o projeto (terminal)
+```
+node app.js
+
+<p align="center">
+  <img alt="...." src="assets/stream.jpg" width="70%">
+</p>
 
 
 
