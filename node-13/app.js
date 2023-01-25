@@ -1,8 +1,5 @@
-//NodeJS módulo File System
+//NodeJS módulo File System (Exemplo 1)
 const fs = require('fs');
-
-
-
 
 //delete file
 fs.unlink('./dados1.txt', (err) => {
