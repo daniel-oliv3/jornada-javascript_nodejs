@@ -214,14 +214,31 @@ node app.js
 node app.js
 ```
 
+### 16 - VAMOS VOLTAR AO SERVIDOR
 
+- Ex: node-16
 
+- Roda o projeto (terminal)
+```
+node server.js
+```
 
+- Cliente
+- Servidor
 
-
-
-
-
+- Mostra o endereço ip
+```
+ping google.com
+```
+- Porta
+  - 20 21 = FTP (file transfer protocol)
+  - 22 = Security shell ussh
+  - 53 = Dns
+  - 80 = Protocolo HTTP
+  - 443 = HTTP Security
+  - 587 = Protocolo SMTP
+  - 3389 = RDP
+  - 3306 = Comunicação com servidores MySQL
 
 
 
