@@ -249,7 +249,14 @@ ping google.com
 node server.js
 ```
 
+### 18 - RESPONDER COM UMA PÁGINA HTML COMPLETA
 
+- Ex: node-18
+
+- Roda o projeto (terminal)
+```
+node server.js
+```
 
 
 
