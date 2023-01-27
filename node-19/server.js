@@ -1,4 +1,4 @@
-/* RESPONDER COM UMA PÁGINA HTML COMPLETA */
+/* SISTEMA DE ROTAS SIMPLES */
 
 const http = require('http');
 const fs = require('fs');

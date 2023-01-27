@@ -261,8 +261,14 @@ node server.js
 - http://localhost:3000/
 
 
+### 19 - SISTEMA DE ROTAS SIMPLES
 
+- Ex: node-19
 
+- Roda o projeto (terminal)
+```
+node server.js
+```
 
 
 
