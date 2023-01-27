@@ -233,7 +233,7 @@ ping google.com
 - Porta
   - 20 21 = FTP (file transfer protocol)
   - 22 = Security shell ussh
-  - 53 = Dns
+  - 53 = DNS
   - 80 = Protocolo HTTP
   - 443 = HTTP Security
   - 587 = Protocolo SMTP

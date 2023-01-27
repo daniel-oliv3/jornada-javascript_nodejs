@@ -1,16 +1,23 @@
-/* CLIENTE E SERVIDOR 2 */
+/* RESPONDER COM UMA PÁGINA HTML COMPLETA */
 
 const http = require('http');
+const fs = require('fs');
+
 
 const server = http.createServer((req, res) => {
-    //Header
+    //prepara o header da resposta
     res.setHeader('Content-Type', 'text/html');
 
-    res.write('<head><link rel="stylesheet" href="app.css"></head>')
-    res.write('<h1>Titulo</h1>');
-    res.write('<h3>Sub-titulo</h3>');
-    res.write('<p>Paragrafo do texto principal do conteudo e lorem ipsum</p>');
-    res.end();
+    //prepara o conteudo html da pagina
+    fs.readFile('./html_pages/index.html', (err, data) => {
+        if(err){
+            console.log('Aconteceu um erro!');
+            res.end();
+        } else {
+            res.write(data);
+            res.end();
+        }
+    });
 });
 
 server.listen(3000, 'localhost', () => {
