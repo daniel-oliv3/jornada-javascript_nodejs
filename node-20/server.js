@@ -12,12 +12,15 @@ const server = http.createServer((req, res) => {
     switch(req.url){
         case '/':
             html_file = './views/index.html';
+            res.statusCode = 200;
             break;
         case '/about':
             html_file = './views/about.html';
+            res.statusCode = 200;
             break;     
         default:
             html_file = './views/404.html';
+            res.statusCode = 404;
             break;
     }
 

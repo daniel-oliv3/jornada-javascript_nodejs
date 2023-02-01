@@ -292,7 +292,9 @@ node server.js
   <img alt="...." src="assets/response-status-code-2.jpg" width="80%">
 </p>
 
-
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/404
 
 
 
