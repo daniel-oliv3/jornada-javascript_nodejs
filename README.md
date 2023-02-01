@@ -275,8 +275,22 @@ node server.js
 - http://localhost:3000/404
 
 
+### 20 - RESPONSE STATUS CODE
 
+- Ex: node-20
 
+- Roda o projeto (terminal)
+```
+node server.js
+```
+
+<p align="center">
+  <img alt="...." src="assets/response-status-code-1.jpg" width="80%">
+</p>
+
+<p align="center">
+  <img alt="...." src="assets/response-status-code-2.jpg" width="80%">
+</p>
 
 
 
