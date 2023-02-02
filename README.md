@@ -297,7 +297,17 @@ node server.js
 - http://localhost:3000/404
 
 
+### 21 - REDIRECTS
 
+- Ex: node-20
+
+- Roda o projeto (terminal)
+```
+node server.js
+```
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/404
 
 
 
