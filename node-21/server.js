@@ -1,4 +1,4 @@
-/* RESPONSE STATUS CODE */
+/* REDIRECTS */
 
 const http = require('http');
 const fs = require('fs');
@@ -17,7 +17,12 @@ const server = http.createServer((req, res) => {
         case '/about':
             html_file = './views/about.html';
             res.statusCode = 200;
-            break;     
+            break;
+        case '/acerca_de':
+                res.setHeader('Location', '/about');
+                res.statusCode = 301;
+                res.end();
+                break;      
         default:
             html_file = './views/404.html';
             res.statusCode = 404;

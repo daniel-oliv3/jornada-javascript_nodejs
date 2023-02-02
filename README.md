@@ -299,7 +299,7 @@ node server.js
 
 ### 21 - REDIRECTS
 
-- Ex: node-20
+- Ex: node-21
 
 - Roda o projeto (terminal)
 ```
@@ -307,6 +307,7 @@ node server.js
 ```
 - http://localhost:3000/
 - http://localhost:3000/about
+- http://localhost:3000/acerca_de
 - http://localhost:3000/404
 
 
