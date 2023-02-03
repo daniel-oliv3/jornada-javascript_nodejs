@@ -1,12 +1,9 @@
-//Streams (Exemplo 1)
+//NodeJS módulo File System (Exemplo 1)
 const fs = require('fs');
 
-const readStream = fs.createReadStream('./dados.txt');
+//delete file
 
-readStream.on('data', (dados) => {
-    console.log('##################################');
-    console.log(dados.toString());
-});
+
 
 
 

@@ -311,6 +311,19 @@ node server.js
 - http://localhost:3000/404
 
 
+### 22 - NPM E NODEMON COM INSTALAÇÃO GLOBAL
+
+- Ex: node-22
+
+- Roda o projeto (terminal)
+```
+node server.js
+```
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/acerca_de
+- http://localhost:3000/404
+
 
 
 
