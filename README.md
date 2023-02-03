@@ -324,11 +324,31 @@ node server.js
 - http://localhost:3000/acerca_de
 - http://localhost:3000/404
 
+**NODE PACKAGE MANEGER (npm)**
 
+**NPM**
+- Site: https://www.npmjs.com/
 
+**Nodemon**
+- Simple monitor script for use during development of a Node.js app.
+- Site: https://www.npmjs.com/package/nodemon
 
+**Express**
+- Site: https://www.npmjs.com/package/express
 
+**Node.JS**
+- Site: https://nodejs.org/en/
 
+- Verifica se o npm esta instalado
+```
+npm -v
+```
+
+**Instalação Global**
+- Nodemon
+```
+npm install -g nodemon
+```
 
 
 
