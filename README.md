@@ -350,9 +350,15 @@ npm -v
 npm install -g nodemon
 ```
 
+- Roda o projeto com nodemon
+```
+nodemon server.js
+```
 
-
-
+- Problema com o Nodemon (Politicas de Segurança do Windows)
+```
+Set-ExecutionPolicy - Scope CurrentUser Unrestricted
+```
 
 
 

@@ -15,6 +15,7 @@ const server = http.createServer((req, res) => {
             res.statusCode = 200;
             break;
         case '/about':
+            res.write('Sapup3!');
             html_file = './views/about.html';
             res.statusCode = 200;
             break;
