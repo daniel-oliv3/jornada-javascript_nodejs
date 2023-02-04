@@ -364,9 +364,9 @@ Set-ExecutionPolicy - Scope CurrentUser Unrestricted
 
 - Ex: node-23
 
-- Roda o projeto (terminal)
+- Roda o projeto com nodemon
 ```
-node server.js
+nodemon server.js
 ```
 - http://localhost:3000/
 - http://localhost:3000/about
@@ -374,6 +374,12 @@ node server.js
 - http://localhost:3000/404
 
 
+- Roda o projeto com node --watch (Experimental)
+- ExperimentalWarning: Watch mode is an experimental feature and might change at any time
+- (Use `node --trace-warnings ...` to show where the warning was created)
+```
+node --watch server.js
+```
 
 
 
