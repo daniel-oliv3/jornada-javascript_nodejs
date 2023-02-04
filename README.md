@@ -360,8 +360,18 @@ nodemon server.js
 Set-ExecutionPolicy - Scope CurrentUser Unrestricted
 ```
 
+### 23 - NPM WATCH, PACKAGE JSON E MAIS SOBRE NPM
 
+- Ex: node-23
 
+- Roda o projeto (terminal)
+```
+node server.js
+```
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/acerca_de
+- http://localhost:3000/404
 
 
 
