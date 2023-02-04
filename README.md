@@ -226,7 +226,7 @@ node server.js
 - Cliente
 - Servidor
 
-- Mostra o endereço ip
+- Mostra o endereço `ip`
 ```
 ping google.com
 ```
@@ -339,7 +339,7 @@ node server.js
 **Node.JS**
 - Site: https://nodejs.org/en/
 
-- Verifica se o npm esta instalado
+- Verifica se o `npm` esta instalado
 ```
 npm -v
 ```
@@ -350,7 +350,7 @@ npm -v
 npm install -g nodemon
 ```
 
-- Roda o projeto com nodemon
+- Roda o projeto com `nodemon`
 ```
 nodemon server.js
 ```
@@ -364,7 +364,7 @@ Set-ExecutionPolicy - Scope CurrentUser Unrestricted
 
 - Ex: node-23
 
-- Roda o projeto com nodemon
+- Roda o projeto com `nodemon`
 ```
 nodemon server.js
 ```
@@ -374,14 +374,34 @@ nodemon server.js
 - http://localhost:3000/404
 
 
-- Roda o projeto com node --watch (Experimental)
+- Roda o projeto com node `watch` (Experimental)
 - ExperimentalWarning: Watch mode is an experimental feature and might change at any time
 - (Use `node --trace-warnings ...` to show where the warning was created)
 ```
 node --watch server.js
 ```
 
+**Desinstalando o Nodemon**
+- `Globalmente`
+```
+npm uninstall -g nodemon
+```
 
+- Verifica a versão do `Nodemon` instalado
+```
+nodemon -v
+```
+
+- `Limpar` o terminal
+```
+clear
+```
+
+**package.json**
+- Criar o arquivo `package.json`
+```
+npm init
+```
 
 
 
