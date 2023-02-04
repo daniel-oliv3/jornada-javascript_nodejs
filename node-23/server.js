@@ -2,11 +2,14 @@
 
 const http = require('http');
 const fs = require('fs');
+const lodash = require('lodash');
 
 
 const server = http.createServer((req, res) => {
     //prepara o header da resposta
     res.setHeader('Content-Type', 'text/html');
+
+    console.log(lodash.random(0, 100)); /*gera um número aleatório entre 0 e 100*/
 
     //Sistema de roteamento
     switch(req.url){
@@ -43,4 +46,5 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, 'localhost', () => {
     console.log('Servidor iniciado com sucesso, Sapup3!');
+    //console.log(lodash.random(0, 100)); /*gera um número aleatório entre 0 e 100*/
 });

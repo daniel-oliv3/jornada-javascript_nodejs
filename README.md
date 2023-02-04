@@ -422,10 +422,13 @@ npm start
 - Cria os arquivos`node_modules`, `package-lock.json`
 
 ```
-npm i --save lodash
+npm i lodash
 ```
 
-
+- Roda o projeto 
+```
+node server.js
+```
 
 
 
