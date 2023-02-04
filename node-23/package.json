@@ -8,5 +8,8 @@
     "start": "node server.js"
   },
   "author": "Daniel Oliveira",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }

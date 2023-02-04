@@ -403,10 +403,27 @@ clear
 npm init
 ```
 
+- `Executar` o servidor
+```
+npm start
+```
+
+**Adicionando uma dependência ao projeto**
+- NPM 
+  - Site: https://www.npmjs.com/
+
+- Search: `lodash`
+  - Lodash: https://www.npmjs.com/package/lodash
+  - Doc: https://lodash.com/
+  - Random: https://lodash.com/docs/4.17.15#random
 
 
+- Instalar o lodash no projeto
+- Cria os arquivos`node_modules`, `package-lock.json`
 
-
+```
+npm i --save lodash
+```
 
 
 
