@@ -478,3 +478,16 @@ node_modules/
 ```
 npm install
 ```
+
+### 25 - EXPRESSJS INTRODUÇÃO
+
+- Ex: node-25
+
+- Roda o projeto com `nodemon`
+```
+nodemon server.js
+```
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/acerca_de
+- http://localhost:3000/404
