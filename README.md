@@ -483,15 +483,6 @@ npm install
 
 - Ex: node-25
 
-- Roda o projeto com `nodemon`
-```
-nodemon server.js
-```
-- http://localhost:3000/
-- http://localhost:3000/about
-- http://localhost:3000/acerca_de
-- http://localhost:3000/404
-
 - npmjs
   - Site: https://www.npmjs.com/
 
@@ -502,4 +493,9 @@ nodemon server.js
 - Instalar o express
 ```
 npm install express
+```
+
+- Roda o projeto
+```
+node --watch app.js
 ```
