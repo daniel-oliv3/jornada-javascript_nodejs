@@ -447,3 +447,34 @@ nodemon server.js
 - http://localhost:3000/about
 - http://localhost:3000/acerca_de
 - http://localhost:3000/404
+
+**Git**
+- Sistema de versionamento
+- Instalando o git
+  - Site: https://git-scm.com/downloads
+
+- Git Bash
+- Verifica a versão do Git instalado
+```
+git -v
+```
+
+- Cria um repositorio local (dentro de `node_modules`, `.git`) 
+```
+git init
+```
+
+**.gitignore**
+- Criar o arquivo `.gitignore` na raiz do projeto
+- Ignora todo os arquivos selecionados no repositorio
+
+- Arquivo `.gitignore`
+```js
+/*.gitignore*/
+node_modules/
+```
+
+- Restaurando o `node_modules` a partir do `package.json`
+```
+npm install
+```
