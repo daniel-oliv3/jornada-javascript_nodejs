@@ -499,3 +499,6 @@ npm install express
 ```
 node --watch app.js
 ```
+
+- http://localhost:3000/
+- http://localhost:3000/about
