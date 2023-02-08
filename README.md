@@ -434,6 +434,11 @@ node server.js
 
 - Ex: node-24
 
+- Instalando o Nodemon (dentro de `node_modules`)
+```
+npm i nodemon
+```
+
 - Roda o projeto com `nodemon`
 ```
 nodemon server.js

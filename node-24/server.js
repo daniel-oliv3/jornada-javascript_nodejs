@@ -1,4 +1,4 @@
-/* NPM WATCH, PACKAGE JSON E MAIS SOBRE NPM */
+/* LODASH, NODE MODULES E OPERAÇÕES COM O NPM */
 
 const http = require('http');
 const fs = require('fs');
@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     //prepara o header da resposta
     res.setHeader('Content-Type', 'text/html');
 
-    console.log(lodash.random(0, 100)); /*gera um número aleatório entre 0 e 100*/
+    console.log(lodash.random(0, 100)); 
 
     //Sistema de roteamento
     switch(req.url){
@@ -46,5 +46,4 @@ const server = http.createServer((req, res) => {
 
 server.listen(3000, 'localhost', () => {
     console.log('Servidor iniciado com sucesso, Sapup3!');
-    //console.log(lodash.random(0, 100)); /*gera um número aleatório entre 0 e 100*/
 });
