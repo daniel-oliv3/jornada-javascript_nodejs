@@ -430,5 +430,15 @@ npm i lodash
 node server.js
 ```
 
+### 24 - LODASH, NODE MODULES E OPERAÇÕES COM O NPM
 
+- Ex: node-24
 
+- Roda o projeto com `nodemon`
+```
+nodemon server.js
+```
+- http://localhost:3000/
+- http://localhost:3000/about
+- http://localhost:3000/acerca_de
+- http://localhost:3000/404
