@@ -538,3 +538,22 @@ node --watch app.js
   - Erro 404
 
 
+### 28 - EXPRESSJS - INTRODUÇÃO AO USO DE UM TEMPLATE ENGINE
+
+- Ex: node-28
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/services
+- http://localhost:3000/about
+
+
+- http://localhost:3000/acerda-de
+  - Redicet about
+
+- http://localhost:3000/404
+  - Erro 404
