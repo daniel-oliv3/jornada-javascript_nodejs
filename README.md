@@ -531,7 +531,10 @@ node --watch app.js
 - http://localhost:3000/about
 
 
+- http://localhost:3000/acerda-de
+  - Redicet about
 
-
+- http://localhost:3000/404
+  - Erro 404
 
 
