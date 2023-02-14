@@ -515,3 +515,23 @@ node --watch app.js
 
 - http://localhost:3000/
 - http://localhost:3000/about
+
+
+### 27 - EXPRESSJS - REDIRECTS & ERRO 404
+
+- Ex: node-27
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/services
+- http://localhost:3000/about
+
+
+
+
+
+
