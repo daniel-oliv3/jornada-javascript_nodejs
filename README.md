@@ -557,3 +557,23 @@ node --watch app.js
 
 - http://localhost:3000/404
   - Erro 404
+
+
+- PUG
+  - Site: https://www.npmjs.com/package/pug
+  - Site: https://pugjs.org/api/getting-started.html
+
+- JavaScript templating
+  - Dot: https://www.npmjs.com/package/dot
+  - Site: https://olado.github.io/doT/index.html
+
+- Embedded JavaScript templates
+  - Site: https://www.npmjs.com/package/ejs
+  - Site: https://ejs.co/
+
+- Instalando o EJS
+```
+npm install ejs
+```
+
+- http://localhost:3000/teste-ejs

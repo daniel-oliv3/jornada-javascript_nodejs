@@ -4,6 +4,9 @@ const express = require('express');
 //cria uma aplicação express
 const app = express();
 
+//registrar o template engine (view engine)
+app.set('view engine', 'ejs');
+
 //escutar os requests
 app.listen(3000);
 
@@ -23,6 +26,12 @@ app.get('/about', (req, res) => {
 app.get('/acerda-de', (req, res) => {
     res.redirect('/about');
 });
+
+app.get('/teste-ejs', (req, res) => {
+    //res.redirect('/about');
+    res.render('inicio');
+});
+
 
 /* use, sempre no final do conjunto de rotas */
 app.use((req, res) => {
