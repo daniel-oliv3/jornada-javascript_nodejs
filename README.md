@@ -502,3 +502,16 @@ node --watch app.js
 
 - http://localhost:3000/
 - http://localhost:3000/about
+
+
+### 26 - EXPRESSJS - RESPOSTAS COM FICHEIROS HTML
+
+- Ex: node-26
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/about

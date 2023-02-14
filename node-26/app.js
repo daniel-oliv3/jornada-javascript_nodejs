@@ -9,11 +9,14 @@ app.listen(3000);
 
 //routes
 app.get('/', (req, res) => {
-    res.send('<h1>Teste</h1>');
+    //res.sendFile('./views/home.html');
+    //res.sendFile('C:/Users/Daniel_Oliveira/Documents/GitHub/jornada-javascript_nodejs/node-26/views/home.html');
+    res.sendFile('./views/home.html', { root: __dirname });
 });
 
 app.get('/about', (req, res) => {
-    res.send('<h1>About</h1>');
+    //res.sendFile('./views/about.html');
+    res.sendFile('./views/about.html', { root: __dirname });
 });
 
 
