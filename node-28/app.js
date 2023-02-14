@@ -27,6 +27,7 @@ app.get('/acerda-de', (req, res) => {
     res.redirect('/about');
 });
 
+//ejs
 app.get('/teste-ejs', (req, res) => {
     //res.redirect('/about');
     res.render('inicio');
