@@ -3,9 +3,14 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Home EJS</title>
+	<title>Home</title>
 </head>
 <body>
+
+    <% 
+        const nome = "Daniel"  
+        const apelido = "Sapup3"
+    %>
 
     <div>
         <a href="/">Home</a>&nbsp;|&nbsp;
@@ -14,8 +19,8 @@
     </div>
 
    <h1>Home EJS</h1>
-   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, porro.</p>
-
+   <p> <%= nome + " " + apelido %> </p>
+   <p> <%= `${nome}  ${apelido}` %> </p>
 </body>
 </html>
 

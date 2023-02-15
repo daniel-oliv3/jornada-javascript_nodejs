@@ -20,7 +20,7 @@ app.get('/services', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-    res.render('about');
+    res.render('about', { title: "Página Sobre-Nós"});
 });
 
 
