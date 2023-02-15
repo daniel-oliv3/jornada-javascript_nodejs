@@ -12,11 +12,11 @@ app.listen(3000);
 
 //routes
 app.get('/', (req, res) => {    
-    res.render('home');
+    res.render('home', { title: "Página Inicial"});
 });
 
 app.get('/services', (req, res) => {
-    res.render('services');
+    res.render('services', { title: "Serviços"});
 });
 
 app.get('/about', (req, res) => {
@@ -26,7 +26,7 @@ app.get('/about', (req, res) => {
 
 /* use, sempre no final do conjunto de rotas */
 app.use((req, res) => {
-    res.status(404).render('404');  
+    res.status(404).render('404', { title: "404 - Página Não Encontrada"});  
 });
 
 

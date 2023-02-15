@@ -596,4 +596,6 @@ node --watch app.js
 - http://localhost:3000/about
 - http://localhost:3000/teste-ejs
 
+- Title dinâmico
+
 - `F2` = Renomer  pasta
