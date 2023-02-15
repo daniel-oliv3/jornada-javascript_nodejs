@@ -579,3 +579,19 @@ npm install ejs
 ```
 
 - http://localhost:3000/teste-ejs
+
+
+
+### 29 - EXPRESSJS COMO PASSAR E APRESENTAR VALORES NAS VIEWS DO EJS
+
+- Ex: node-29
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/services
+- http://localhost:3000/about
+- http://localhost:3000/teste-ejs
