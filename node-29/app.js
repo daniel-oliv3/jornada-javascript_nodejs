@@ -1,4 +1,4 @@
-/* */
+/* EXPRESSJS COMO PASSAR E APRESENTAR VALORES NAS VIEWS DO EJS */
 const express = require('express');
 
 //cria uma aplicação express
@@ -12,31 +12,21 @@ app.listen(3000);
 
 //routes
 app.get('/', (req, res) => {    
-    res.status(200).sendFile('./views/home.html', { root: __dirname });
+    res.render('home');
 });
 
 app.get('/services', (req, res) => {
-    res.status(200).sendFile('./views/services.html', { root: __dirname });
+    res.render('services');
 });
 
 app.get('/about', (req, res) => {
-    res.status(200).sendFile('./views/about.html', { root: __dirname });
-});
-
-app.get('/acerda-de', (req, res) => {
-    res.redirect('/about');
-});
-
-//ejs
-app.get('/teste-ejs', (req, res) => {
-    //res.redirect('/about');
-    res.render('inicio');
+    res.render('about');
 });
 
 
 /* use, sempre no final do conjunto de rotas */
 app.use((req, res) => {
-    res.status(404).sendFile('./views/404.html', { root: __dirname });   
+    res.status(404).render('404');  
 });
 
 
