@@ -16,7 +16,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/services', (req, res) => {
-    res.render('services', { title: "Serviços", subtitulo: "Sapup3"});
+
+    const servicos = [
+        { titulo_servico: "Desenvolvimento Web", descricao: "Desenvolvemos páginas a app web"},
+        { titulo_servico: "Desenvolvimento Desktop", descricao: "Desenvolvemos aplicações desktop"},
+        { titulo_servico: "Desenvolvimento Mobile", descricao: "Desenvolvemos aplicações mobile para Android e IOS"},
+    ];
+
+    res.render('services', { title: "Serviços", servicos });
 });
 
 app.get('/about', (req, res) => {
