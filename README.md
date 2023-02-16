@@ -599,3 +599,27 @@ node --watch app.js
 - Title dinâmico
 
 - `F2` = Renomer  pasta
+
+
+### 30 - EXPRESSJS APRESENTAÇÃO DE COLEÇÕES DE RESULTADOS NO EJS
+
+- Ex: node-30
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/services
+- http://localhost:3000/about
+- http://localhost:3000/teste-ejs
+
+
+
+
+
+
+
+
+
