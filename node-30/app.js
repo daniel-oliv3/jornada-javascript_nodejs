@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
 
 app.get('/services', (req, res) => {
 
+    //const servicos = [];
     const servicos = [
         { titulo_servico: "Desenvolvimento Web", descricao: "Desenvolvemos páginas a app web"},
         { titulo_servico: "Desenvolvimento Desktop", descricao: "Desenvolvemos aplicações desktop"},

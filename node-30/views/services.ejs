@@ -15,16 +15,30 @@
 
    <h1>Services</h1>
 
-
+    <!--Bloco ejs-->
    <% 
     if(servicos.length > 0){
-        console.log("Sapup3");
+        servicos.forEach(servico => {
+            console.log(servico.titulo_servico)
+            console.log(servico.descricao)
+        });        
     }
    %>
    
-   <h3>Titulo do serviço</h3>
-   <p>Descrição do serviço</p>
-   <hr>
+   <% if(servicos.length > 0){ %>
+
+    <% servicos.forEach(servico => { %>
+        <div>
+            <h3><%= servico.titulo_servico %></h3>
+            <p><%= servico.descricao %></p>
+            <hr>
+        </div>  
+    <% }); %>       
+   
+   <% } else { %>
+        <p>Não foram encontrados serviços</p>
+    <% } %>
+
 
 </body>
 </html>
