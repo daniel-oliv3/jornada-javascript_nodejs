@@ -1,4 +1,4 @@
-/* EXPRESSJS COMO PASSAR E APRESENTAR VALORES NAS VIEWS DO EJS */
+/* EXPRESSJS APRESENTAÇÃO DE COLEÇÕES DE RESULTADOS NO EJS */
 const express = require('express');
 
 //cria uma aplicação express
@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/services', (req, res) => {
-    res.render('services', { title: "Serviços"});
+    res.render('services', { title: "Serviços", subtitulo: "Sapup3"});
 });
 
 app.get('/about', (req, res) => {

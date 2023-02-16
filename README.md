@@ -615,6 +615,9 @@ node --watch app.js
 - http://localhost:3000/about
 - http://localhost:3000/teste-ejs
 
+- Instalação de extenção VSCode
+  - `EJS language support`
+
 
 
 
