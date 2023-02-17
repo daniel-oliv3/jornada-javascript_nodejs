@@ -1,4 +1,4 @@
-/* EXPRESSJS APRESENTAÇÃO DE COLEÇÕES DE RESULTADOS NO EJS */
+/* EXPRESSJS EJS VIEW PARTIALS */
 const express = require('express');
 
 //cria uma aplicação express
