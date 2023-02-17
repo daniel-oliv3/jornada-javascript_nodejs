@@ -620,8 +620,14 @@ node --watch app.js
 
 
 
+### 31 - EXPRESSJS EJS VIEW PARTIALS
 
+- Ex: node-31
 
+- Roda o projeto
+```
+node --watch app.js
+```
 
 
 
