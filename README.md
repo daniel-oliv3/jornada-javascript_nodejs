@@ -635,3 +635,42 @@ node --watch app.js
 - http://localhost:3000/teste-ejs
 
 
+
+
+### 32 - EXPRESSJS INTRODUÇÃO AO CONCEITO DE MIDDLEWARE
+
+**Conceito de Middleware**
+
+- São partes do código que são executadas entre o request e o envio das respostas
+
+<p align="center">
+  <img alt="...." src="./assets/Servidor-node.jpg" width="80%">
+</p>
+
+
+<p align="center">
+  <img alt="...." src="./assets/Servidor-node-02.jpg" width="80%">
+</p>
+
+- Ultimo comando não serra executado
+
+**Exemplos de Middleware**
+
+- Registro de logs
+- Funcionalidades de autenticação / autorização
+- Validação e preparação de dados JSON a partir do request
+- Responder com erros da aplicação
+
+
+
+- Ex: node-32
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+- http://localhost:3000/services
+- http://localhost:3000/about
+- http://localhost:3000/teste-ejs
