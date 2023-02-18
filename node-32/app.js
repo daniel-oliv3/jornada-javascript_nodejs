@@ -1,4 +1,4 @@
-/* EXPRESSJS EJS VIEW PARTIALS */
+/* EXPRESSJS INTRODUÇÃO AO CONCEITO DE MIDDLEWARE*/
 const express = require('express');
 
 //cria uma aplicação express
@@ -9,6 +9,16 @@ app.set('view engine', 'ejs');
 
 //escutar os requests
 app.listen(3000);
+
+//Middleware
+app.use((req, res, next) => {
+    console.log('Novo pedido: ');
+    console.log('Host: ', req.hostname);
+    console.log('Path: ', req.path);
+    console.log('Method: ', req.method);
+    next();
+});
+
 
 //routes
 app.get('/', (req, res) => {    

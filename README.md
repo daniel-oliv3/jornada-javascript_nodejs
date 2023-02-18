@@ -652,7 +652,7 @@ node --watch app.js
   <img alt="...." src="./assets/Servidor-node-02.jpg" width="80%">
 </p>
 
-- Ultimo comando não serra executado
+- Ultimo comando não será executado
 
 **Exemplos de Middleware**
 
