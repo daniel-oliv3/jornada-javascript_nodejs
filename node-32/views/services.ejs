@@ -1,0 +1,43 @@
+<%- include("./partials/header.ejs") %>
+<%- include("./partials/nav.ejs") %>
+
+   <h1>Services</h1>
+
+    <!--Bloco ejs-->
+   <% 
+    if(servicos.length > 0){
+        servicos.forEach(servico => {
+            console.log(servico.titulo_servico)
+            console.log(servico.descricao)
+        });        
+    }
+   %>
+   
+   <% if(servicos.length > 0){ %>
+
+    <% servicos.forEach(servico => { %>
+        <div>
+            <h3><%= servico.titulo_servico %></h3>
+            <p><%= servico.descricao %></p>
+            <hr>
+        </div>  
+    <% }); %>       
+   
+   <% } else { %>
+        <p>Não foram encontrados serviços</p>
+    <% } %>
+
+
+<%- include("./partials/footer.ejs") %>
+
+
+
+
+
+
+<!--
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas
+    17/02/2023
+-->
