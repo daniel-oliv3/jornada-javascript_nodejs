@@ -26,6 +26,16 @@ console.log(dados.nomes[2]);
 
 
 
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
+
+
+
+
 
 
 
