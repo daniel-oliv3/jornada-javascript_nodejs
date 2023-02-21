@@ -7,3 +7,15 @@ readStream.on('data', (dados) => {
     console.log('##################################');
     console.log(dados.toString());
 });
+
+
+
+
+
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
