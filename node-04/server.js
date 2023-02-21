@@ -12,3 +12,10 @@ const server = http.createServer((req, res) => {
 server.listen(port, host, () => {
     console.log('Novo servidor em funcão!');
 });
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
