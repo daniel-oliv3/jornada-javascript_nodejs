@@ -22,11 +22,11 @@ app.use((req, res, next) => {
 });
 
 
-app.use((req, res, next) => {
+/*app.use((req, res, next) => {
     
     console.log('Segundo Middleware');
     next();
-});
+});*/
 
 
 //----------------------------------------------------------------------------
@@ -34,6 +34,14 @@ app.use((req, res, next) => {
 app.get('/', (req, res) => {    
     res.render('home', { title: "Página Inicial"});
 });
+
+
+app.use((req, res, next) => {
+    
+    console.log('Segundo Middleware');
+    next();
+});
+
 
 app.get('/services', (req, res) => {
 
