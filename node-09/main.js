@@ -30,3 +30,12 @@ const os = require('os');
 
 //devolve a memoria total do sistema (17009004544)
 console.log(os.totalmem());
+
+
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
