@@ -10,6 +10,13 @@ console.log(cidades);
 console.log(texto);
 console.log(adicionar(10, 20));
 
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
+
 
 
 
