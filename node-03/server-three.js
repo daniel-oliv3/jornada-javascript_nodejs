@@ -10,3 +10,11 @@ const server = http.createServer((request, response) => {
 }).listen(port, host, () => {
     console.log('Servidor em execução!');
 });
+
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/

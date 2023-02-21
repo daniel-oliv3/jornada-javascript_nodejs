@@ -13,6 +13,13 @@ server.listen(port, host, () => {
     console.log('Servidor iniciado na porta 3000');
 });
 
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
+
 
 
 
