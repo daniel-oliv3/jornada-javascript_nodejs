@@ -48,3 +48,17 @@ server.listen(3000, 'localhost', () => {
     console.log('Servidor iniciado com sucesso, Sapup3!');
     //console.log(lodash.random(0, 100)); /*gera um número aleatório entre 0 e 100*/
 });
+
+
+
+
+
+
+
+
+/*
+    Autor: Daniel Oliveira
+    Email: danieloliveira.webmaster@gmail.com
+    Manaus/Amazonas/Brasil
+    21/02/2023
+*/
