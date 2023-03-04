@@ -4,6 +4,8 @@
 
 ### 1 - INTRODUÇÃO AO NODEJS
 
+**INTRODUÇÃO AO NODEJS**
+
 **O que é o NodeJS?**
 - É um ambiente de execução de JavaScript, de código aberto multiplataforma, que permite aos programadores executar código de JavaScript fora do tradicional ambiente de um broser
 - Não é uma linguagem de programação
@@ -39,6 +41,8 @@
 
 
 ### 2 - INSTALAÇÃO E PRIMEIROS TESTES COM NODEJS
+
+**INSTALAÇÃO E PRIMEIROS TESTES COM NODEJS**
 
 - Ex: node-02
 
@@ -89,6 +93,8 @@ node
 
 ### 3 - VAMOS CRIAR UM SERVIDOR COM NODEJS
 
+**VAMOS CRIAR UM SERVIDOR COM NODEJS**
+
 - Ex: node-03
 
 - Exemplo 1
@@ -111,10 +117,14 @@ node server-three.js
 
 ### 4 - SERVIDOR COM DIFERENTES RESPOSTAS
 
+**SERVIDOR COM DIFERENTES RESPOSTAS**
+
 - Ex: node-04
 
 
 ### 5 - ALGUNS CONCEITOS DE NODEJS PARA PROGRAMADORES PHP
+
+**ALGUNS CONCEITOS DE NODEJS PARA PROGRAMADORES PHP**
 
 - Ex: node-05
 
@@ -125,10 +135,14 @@ node server-three.js
 
 ### 6 - GLOBAL OBJECT
 
+**GLOBAL OBJECT**
+
 - Ex: node-06
 
 
 ### 7 - INTRODUÇÃO A MÓDULOS E REQUIRE
+
+**INTRODUÇÃO A MÓDULOS E REQUIRE**
 
 - Ex: node-07
 
@@ -140,6 +154,8 @@ node main.js
 
 ### 8 - REQUIRE E DESESTRUTURAÇÃO
 
+**REQUIRE E DESESTRUTURAÇÃO**
+
 - Ex: node-08
 
 - Roda o projeto (terminal)
@@ -149,6 +165,8 @@ node main.js
 
 ### 9 - INTRODUÇÃO AOS MÓDULOS BUILTIN DO NODE
 
+**INTRODUÇÃO AOS MÓDULOS BUILTIN DO NODE**
+
 - Ex: node-09
 
 **Node.js Built-in Modules**
@@ -156,6 +174,8 @@ node main.js
 
 
 ### 10 - LER FICHEIROS COM O MÓDULO FILE SYSTEM
+
+**LER FICHEIROS COM O MÓDULO FILE SYSTEM**
 
 - Ex: node-10
 
@@ -165,6 +185,8 @@ node app.js
 ```
 
 ### 11 - LER FICHEIROS DE FORMA SINCRONA E ESCRITA DE FICHEIROS
+
+**LER FICHEIROS DE FORMA SINCRONA E ESCRITA DE FICHEIROS**
 
 - Ex: node-11
 
@@ -176,6 +198,8 @@ node app.js
 
 ### 12 - CRIAR E REMOVER PASTAS
 
+**CRIAR E REMOVER PASTAS**
+
 - Ex: node-12
 
 - Roda o projeto (terminal)
@@ -185,6 +209,8 @@ node app.js
 
 ### 13 - ELIMINAR FICHEIROS
 
+**ELIMINAR FICHEIROS**
+
 - Ex: node-13
 
 - Roda o projeto (terminal)
@@ -193,6 +219,8 @@ node app.js
 ```
 
 ### 14 - STREAMS
+
+**STREAMS**
 
 - Ex: node-14
 
@@ -207,6 +235,8 @@ node app.js
 
 ### 15 - STREAM WRITE
 
+**STREAM WRITE**
+
 - Ex: node-15
 
 - Roda o projeto (terminal)
@@ -215,6 +245,8 @@ node app.js
 ```
 
 ### 16 - VAMOS VOLTAR AO SERVIDOR
+
+**VAMOS VOLTAR AO SERVIDOR**
 
 - Ex: node-16
 
@@ -242,6 +274,8 @@ ping google.com
 
 ### 17 - RELEMBRANDO AS RESPOSTAS
 
+**RELEMBRANDO AS RESPOSTAS**
+
 - Ex: node-17
 
 - Roda o projeto (terminal)
@@ -250,6 +284,8 @@ node server.js
 ```
 
 ### 18 - RESPONDER COM UMA PÁGINA HTML COMPLETA
+
+**RESPONDER COM UMA PÁGINA HTML COMPLETA**
 
 - Ex: node-18
 
@@ -262,6 +298,8 @@ node server.js
 
 
 ### 19 - SISTEMA DE ROTAS SIMPLES
+
+**SISTEMA DE ROTAS SIMPLES**
 
 - Ex: node-19
 
@@ -276,6 +314,8 @@ node server.js
 
 
 ### 20 - RESPONSE STATUS CODE
+
+**RESPONSE STATUS CODE**
 
 - Ex: node-20
 
@@ -299,6 +339,8 @@ node server.js
 
 ### 21 - REDIRECTS
 
+**REDIRECTS**
+
 - Ex: node-21
 
 - Roda o projeto (terminal)
@@ -312,6 +354,8 @@ node server.js
 
 
 ### 22 - NPM E NODEMON COM INSTALAÇÃO GLOBAL
+
+**NPM E NODEMON COM INSTALAÇÃO GLOBAL**
 
 - Ex: node-22
 
@@ -361,6 +405,8 @@ Set-ExecutionPolicy - Scope CurrentUser Unrestricted
 ```
 
 ### 23 - NPM WATCH, PACKAGE JSON E MAIS SOBRE NPM
+
+**NPM WATCH, PACKAGE JSON E MAIS SOBRE NPM**
 
 - Ex: node-23
 
@@ -432,6 +478,8 @@ node server.js
 
 ### 24 - LODASH, NODE MODULES E OPERAÇÕES COM O NPM
 
+**LODASH, NODE MODULES E OPERAÇÕES COM O NPM**
+
 - Ex: node-24
 
 - Instalando o Nodemon (dentro de `node_modules`)
@@ -481,6 +529,8 @@ npm install
 
 ### 25 - EXPRESSJS INTRODUÇÃO
 
+**EXPRESSJS INTRODUÇÃO**
+
 - Ex: node-25
 
 - npmjs
@@ -506,6 +556,8 @@ node --watch app.js
 
 ### 26 - EXPRESSJS - RESPOSTAS COM FICHEIROS HTML
 
+**EXPRESSJS - RESPOSTAS COM FICHEIROS HTML**
+
 - Ex: node-26
 
 - Roda o projeto
@@ -518,6 +570,8 @@ node --watch app.js
 
 
 ### 27 - EXPRESSJS - REDIRECTS & ERRO 404
+
+**EXPRESSJS - REDIRECTS & ERRO 404**
 
 - Ex: node-27
 
@@ -539,6 +593,8 @@ node --watch app.js
 
 
 ### 28 - EXPRESSJS - INTRODUÇÃO AO USO DE UM TEMPLATE ENGINE
+
+**EXPRESSJS - INTRODUÇÃO AO USO DE UM TEMPLATE ENGINE**
 
 - Ex: node-28
 
@@ -584,6 +640,8 @@ npm install ejs
 
 ### 29 - EXPRESSJS COMO PASSAR E APRESENTAR VALORES NAS VIEWS DO EJS
 
+**EXPRESSJS COMO PASSAR E APRESENTAR VALORES NAS VIEWS DO EJS**
+
 - Ex: node-29
 
 - Roda o projeto
@@ -602,6 +660,8 @@ node --watch app.js
 
 
 ### 30 - EXPRESSJS APRESENTAÇÃO DE COLEÇÕES DE RESULTADOS NO EJS
+
+**EXPRESSJS APRESENTAÇÃO DE COLEÇÕES DE RESULTADOS NO EJS**
 
 - Ex: node-30
 
@@ -622,6 +682,8 @@ node --watch app.js
 
 ### 31 - EXPRESSJS EJS VIEW PARTIALS
 
+**EXPRESSJS EJS VIEW PARTIALS**
+
 - Ex: node-31
 
 - Roda o projeto
@@ -638,6 +700,8 @@ node --watch app.js
 
 
 ### 32 - EXPRESSJS INTRODUÇÃO AO CONCEITO DE MIDDLEWARE
+
+**EXPRESSJS INTRODUÇÃO AO CONCEITO DE MIDDLEWARE**
 
 **Conceito de Middleware**
 
@@ -678,6 +742,8 @@ node --watch app.js
 
 ### 33 - EXPRESSJS - MAIS ALGUNS DETALHES SOBRE
 
+**EXPRESSJS - MAIS ALGUNS DETALHES SOBRE**
+
 - Ex: node-33
 
 - Roda o projeto
@@ -694,6 +760,7 @@ node --watch app.js
 
 ### 34 - EXPRESSJS - USANDO UM MIDDLEWARE EXTERNO MORGAN
 
+**EXPRESSJS - USANDO UM MIDDLEWARE EXTERNO MORGAN**
 
 **Morgan**
 
@@ -725,7 +792,7 @@ node --watch app.js
 
 ### 35 - EXPRESSJS - SERVINDO RECURSOS ESTÁTICOS
 
-
+**EXPRESSJS - SERVINDO RECURSOS ESTÁTICOS**
 
 
 - Ex: node-35
@@ -748,6 +815,8 @@ http://localhost:3000/app.css
 
 
 ### 36 - EXPRESSJS - MAIS DETALHES SOBRE ROUTES
+
+**EXPRESSJS - MAIS DETALHES SOBRE ROUTES**
 
 **Novo Projeto (api)**
 
@@ -794,6 +863,8 @@ node --watch app.js
 
 ### 37 - EXPRESSJS - ROUTES COM EXPRESSÕES REGULARES
 
+**EXPRESSJS - ROUTES COM EXPRESSÕES REGULARES**
+
 **Roteamento**
 
 - Express
@@ -825,6 +896,28 @@ app.get('/a*x', (req, res) => {
 ```
 
 - http://localhost:3000/abcdefjghdhdtdydhdfx
+
+
+
+
+
+### 38 - EXPRESSJS - ROUTES COM PARÂMETROS
+
+**EXPRESSJS - ROUTES COM PARÂMETROS**
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+
+**Roteamento**
+
+- Express
+  - https://expressjs.com/pt-br/guide/routing.html
+
+
+- Ex: node-38
 
 
 
