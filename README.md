@@ -905,6 +905,8 @@ app.get('/a*x', (req, res) => {
 
 **EXPRESSJS - ROUTES COM PARÂMETROS**
 
+- Ex: node-38
+
 - Roda o projeto
 ```
 node --watch app.js
@@ -917,11 +919,17 @@ node --watch app.js
   - https://expressjs.com/pt-br/guide/routing.html
 
 
-- Ex: node-38
+- End-Points
+ - Mostrar os dados de um cliente
+ - Mostrar todos os nomes dos clientes
+
+- Routes
+    - http://localhost:3000/clientes/100
+    - http://localhost:3000/clientes/1/comentarios/100
 
 
-
-
+- Crase
+  - Caractere (`)
 
 
 
