@@ -792,15 +792,39 @@ node --watch app.js
 
 
 
+### 37 - EXPRESSJS - ROUTES COM EXPRESSÕES REGULARES
+
+**Roteamento**
+
+- Express
+  - https://expressjs.com/pt-br/guide/routing.html
+
+- Developer Mozilla (Expressão regulares)
+  - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/routes
 
 
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- Ex: node-37
+
+- Routes
+- http://localhost:3000/axcd
+- http://localhost:3000/acd
 
 
+- url, começa com a, pode ter qualquer coisa ou nada no meio *, termina com x
+```js
 
+//Rotas
+app.get('/a*x', (req, res) => {
+    res.send('lol');
+});
+```
 
-
-
-
+- http://localhost:3000/abcdefjghdhdtdydhdfx
 
 
 
