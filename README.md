@@ -747,3 +747,64 @@ http://localhost:3000/app.css
 
 
 
+### 36 - EXPRESSJS - MAIS DETALHES SOBRE ROUTES
+
+**Novo Projeto (api)**
+
+
+- Instalar o Express
+```
+npm install express
+```
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- Ex: node-36
+
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+- http://localhost:3000/
+
+
+**Express**
+
+- Express
+  - Site: https://expressjs.com/pt-br/
+
+
+**Roteamento**
+- https://expressjs.com/pt-br/guide/routing.html
+
+
+- Routes
+
+- http://localhost:3000/
+- http://localhost:3000/home
+- http://localhost:3000/teste
+- http://localhost:3000/abcd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
