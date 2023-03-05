@@ -1044,13 +1044,13 @@ npm install mysql
 ```
 
 
-
 - Roda o projeto
 ```
 node --watch server.js
 ```
 
-
+- URLs
+  - http://localhost:3000/
 
 
 
