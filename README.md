@@ -932,4 +932,34 @@ node --watch app.js
   - Caractere (`)
 
 
+### 39 - EXPRESSJS - MAIS DETALHES SOBRE ROUTES COM PARÂMETROS
+
+**EXPRESSJS - MAIS DETALHES SOBRE ROUTES COM PARÂMETROS**
+
+- Ex: node-39
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+**Roteamento**
+
+- Express
+  - https://expressjs.com/pt-br/guide/routing.html
+
+
+- Routes(URLs)
+    - http://localhost:3000/clientes/100
+    - http://localhost:3000/clientes/1/comentarios/100
+    - http://localhost:3000/clientes/10
+    - http://localhost:3000/clientes/10-Brasil
+    - http://localhost:3000/clientes/10-Manaus
+
+- Rua-lojas(urls)
+    - http://localhost:3000/clientes/0-Manaus
+    - http://localhost:3000/clientes/1-Para
+    - http://localhost:3000/clientes/2-Salvador
+    - http://localhost:3000/clientes/3-Sao-paulo
+    - http://localhost:3000/clientes/4-manacapuru
 
