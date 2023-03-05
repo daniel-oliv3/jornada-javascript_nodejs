@@ -968,6 +968,8 @@ node --watch app.js
 
 ### 40 - EXPRESSJS - INTRODUÇÃO AO MYSQL NO CENÁRIO NODEJS
 
+**EXPRESSJS - INTRODUÇÃO AO MYSQL NO CENÁRIO NODEJS**
+
 
 - Ex: node-40
 
@@ -1025,9 +1027,27 @@ ENGINE=InnoDB
 ;
 ```
 
+- Instalação das **Dependências**
+
+**Express**
+
+- Instala o express
+```
+npm install express
+```
+
+**MySQL**
+
+- Instala o MySQL
+```
+npm install mysql
+```
+
+
+
 - Roda o projeto
 ```
-node --watch app.js
+node --watch server.js
 ```
 
 
