@@ -963,3 +963,84 @@ node --watch app.js
     - http://localhost:3000/clientes/3-Sao-paulo
     - http://localhost:3000/clientes/4-manacapuru
 
+
+
+
+### 40 - EXPRESSJS - INTRODUÇÃO AO MYSQL NO CENÁRIO NODEJS
+
+
+- Ex: node-40
+
+**Servidor Web**
+
+- Laragon
+  - Site: https://laragon.org/download/index.html
+- XAMPP
+  - Site: https://www.apachefriends.org/pt_br/index.html
+- WAMP Server
+  - Site: https://www.wampserver.com/en/
+
+
+
+
+- Utilizando o `Laragon`
+- Gerenciador de Base de dados `HeidiSQL`
+
+- HeidiSQL
+  - Site: https://www.heidisql.com/
+
+- Criação da base de dados `blog_nodejs`
+- Criação da tabela `usuarios`
+  
+```sql
+/* Tabela Usuários */
+
+CREATE TABLE `usuarios` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`nome` VARCHAR(50) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`created_at` DATETIME NULL DEFAULT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=2
+;
+```
+
+
+- Criação da tabela `comentarios`
+
+```sql
+/* Tabela Comentários */
+
+CREATE TABLE `comentarios` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`id_usuario` INT(11) NULL DEFAULT NULL,
+	`post` VARCHAR(200) NULL DEFAULT NULL COLLATE 'utf8mb4_unicode_ci',
+	`created_at` DATETIME NOT NULL,
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='utf8mb4_unicode_ci'
+ENGINE=InnoDB
+;
+```
+
+- Roda o projeto
+```
+node --watch app.js
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
