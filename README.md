@@ -1054,12 +1054,25 @@ node --watch server.js
 
 
 
+### 41 - TRATAMENTO DE ERROS NO MYSQL ANTES DE MERGULHAR NOS EXEMPLOS
 
+**TRATAMENTO DE ERROS NO MYSQL ANTES DE MERGULHAR NOS EXEMPLOS**
 
+- Ex: node-41
 
+**MySQL**
 
+- MySQL (npm)
+  - Site: https://www.npmjs.com/package/mysql
+  - Error Handling: https://www.npmjs.com/package/mysql?activeTab=readme#error-handling
 
+- Roda o projeto
+```
+node --watch server.js
+```
 
+- URLs
+  - http://localhost:3000/
 
 
 
