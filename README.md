@@ -1076,4 +1076,23 @@ node --watch server.js
 
 
 
+### 42 - EXPRESSJS - CONNECTION EM MAIS DETALHE
+
+**EXPRESSJS - CONNECTION EM MAIS DETALHE**
+
+- Ex: node-42
+
+- Roda o projeto
+```
+node --watch server.js
+```
+
+- https://www.npmjs.com/package/mysql#establishing-connections
+
+- URLs
+  - http://localhost:3000/
+
+
+
+
 
