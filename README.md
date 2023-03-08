@@ -1096,3 +1096,48 @@ node --watch server.js
 
 
 
+
+### 43 - EXPRESSJS - MYSQL SELECT
+
+**EXPRESSJS - MYSQL SELECT**
+
+- Roda o projeto
+```
+node --watch server.js
+```
+
+- Ex: node-43
+
+- URLs
+  - http://localhost:3000/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
