@@ -1058,6 +1058,9 @@ node --watch server.js
 
 **TRATAMENTO DE ERROS NO MYSQL ANTES DE MERGULHAR NOS EXEMPLOS**
 
+- Laragon
+- HeidiSQL
+
 - Ex: node-41
 
 **MySQL**
@@ -1080,6 +1083,9 @@ node --watch server.js
 
 **EXPRESSJS - CONNECTION EM MAIS DETALHE**
 
+- Laragon
+- HeidiSQL
+
 - Ex: node-42
 
 - Roda o projeto
@@ -1101,6 +1107,9 @@ node --watch server.js
 
 **EXPRESSJS - MYSQL SELECT**
 
+- Laragon
+- HeidiSQL
+
 - Roda o projeto
 ```
 node --watch server.js
@@ -1113,7 +1122,22 @@ node --watch server.js
 
 
 
+### 44 - EXPRESSJS - MYSQL INSERT
 
+**EXPRESSJS - MYSQL INSERT**
+
+- Laragon
+- HeidiSQL
+
+- Roda o projeto
+```
+node --watch server.js
+```
+
+- Ex: node-44
+
+- URLs
+  - http://localhost:3000/
 
 
 
