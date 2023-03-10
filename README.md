@@ -1142,10 +1142,28 @@ node --watch server.js
 
 
 
+### 45 - EXPRESSJS - MYSQL OBTER REGISTO A PARTIR DE PARÂMETRO
 
 
+**EXPRESSJS - MYSQL OBTER REGISTO A PARTIR DE PARÂMETRO**
 
+- Laragon
+- HeidiSQL
 
+- Roda o projeto
+```
+node --watch server.js
+```
+
+- Ex: node-45
+
+- URLs
+  - http://localhost:3000/
+  - http://localhost:3000/usuarios/1
+  - http://localhost:3000/usuarios/100
+  - http://localhost:3000/usuarios/1000
+  - http://localhost:3000/usuarios/2
+  - http://localhost:3000/usuarios/3
 
 
 
