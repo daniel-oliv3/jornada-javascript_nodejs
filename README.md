@@ -1167,7 +1167,28 @@ node --watch server.js
 
 
 
+### 46 - EXPRESSJS - MELHORAMENTO DA RESPOSTA EM JSON
 
+
+**EXPRESSJS - MELHORAMENTO DA RESPOSTA EM JSON**
+
+- Laragon
+- HeidiSQL
+
+- Roda o projeto
+```
+node --watch server.js
+```
+
+- Extensão Google chrome
+  - JSON Viewer
+
+
+- Ex: node-46
+
+- URLs
+  - http://localhost:3000/
+    - http://localhost:3000/usuarios/1
 
 
 
